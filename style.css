@@ -41,6 +41,6 @@ body {
     transition: opacity 1s;
   }
   
-  .caixa-esconder.hidden {
+  .caixa-esconder.escondida {
     opacity: 0;
   }
