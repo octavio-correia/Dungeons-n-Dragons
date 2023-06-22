@@ -5,10 +5,11 @@ header {
 }
 
 button {
-    margin-top: 5px;
-    padding: 5px;
+    margin-top: 10px;
+    padding: 20px;
     background-color: brown;
     color: antiquewhite;
+    border-radius: 10px;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
     max-height: 250px;
 }
 
-.caixa-texto {
+#caixa-texto {
     font-size: larger;
     text-align: center;
     color: white;
@@ -32,5 +33,14 @@ body {
     padding: 30px;
     border: 3px solid rgb(199, 221, 0);
     border-radius: 15px;
-    margin: 80px;
+    margin: 10px;
 }
+
+.caixa-esconder {
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  
+  .caixa-esconder.hidden {
+    opacity: 0;
+  }
